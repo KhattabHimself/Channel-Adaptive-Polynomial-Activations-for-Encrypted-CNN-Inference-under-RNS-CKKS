@@ -1,0 +1,1 @@
+# Channel-Adaptive-Polynomial-Activations-for-Encrypted-CNN-Inference-under-RNS-CKKS
