@@ -7,11 +7,11 @@ CILS Lab
 **Supervisor:** Dr. Lydia Bouzar-Benlabiod
 **Status:** in progress, defense planned for April 2027
 
-> This branch (`extensions`) holds the experiment code and the result files.
+> This repository holds the experiment code and the result files.
 > The thesis text is not in this repository. A few files are held back and
 > will be added later.
 
-## What is on this branch
+## What is in this repository
 
     code/
       src/           shared code
@@ -27,6 +27,9 @@ From the `code/` folder:
     python reproduce.py list      what can be reproduced, and how long it takes
     python reproduce.py check     compare the saved result files with the expected numbers
     python reproduce.py run <name>
+
+`check` reports one missing file, for the entry `window`: its code and result
+file are among those held back. Every other entry passes.
 
 Python 3.12 with PyTorch 2.4.1 on CPU (`environment.yml`). The encrypted
 experiments use OpenFHE 1.6.1 in a Linux container
