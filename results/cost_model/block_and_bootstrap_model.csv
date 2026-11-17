@@ -1,0 +1,25 @@
+activation,levels_per_activation,block,levels_per_block,chain_levels,blocks_per_chain,bootstrap_points_resnet20,note
+degree 7 interpolant,5,standard convolutions,12,24,2,4.0,
+degree 7 interpolant,5,standard convolutions,12,43,3,2.0,
+degree 7 interpolant,5,earlier system's convolutions,13,24,1,8.0,
+degree 7 interpolant,5,earlier system's convolutions,13,43,3,2.0,
+degree 15,6,standard convolutions,14,24,1,8.0,
+degree 15,6,standard convolutions,14,43,3,2.0,
+degree 15,6,earlier system's convolutions,15,24,1,8.0,
+degree 15,6,earlier system's convolutions,15,43,2,4.0,
+degree 31,7,standard convolutions,16,24,1,8.0,
+degree 31,7,standard convolutions,16,43,2,4.0,
+degree 31,7,earlier system's convolutions,17,24,1,8.0,
+degree 31,7,earlier system's convolutions,17,43,2,4.0,
+degree 63,8,standard convolutions,18,24,1,8.0,
+degree 63,8,standard convolutions,18,43,2,4.0,
+degree 63,8,earlier system's convolutions,19,24,1,8.0,
+degree 63,8,earlier system's convolutions,19,43,2,4.0,
+composite 7-15-15 (cheapest within 1 point),14,standard convolutions,30,24,0,,one block does not fit in the chain
+composite 7-15-15 (cheapest within 1 point),14,standard convolutions,30,43,1,8.0,
+composite 7-15-15 (cheapest within 1 point),14,earlier system's convolutions,31,24,0,,one block does not fit in the chain
+composite 7-15-15 (cheapest within 1 point),14,earlier system's convolutions,31,43,1,8.0,
+composite 15-15-15-15,20,standard convolutions,42,24,0,,one block does not fit in the chain
+composite 15-15-15-15,20,standard convolutions,42,43,1,8.0,
+composite 15-15-15-15,20,earlier system's convolutions,43,24,0,,one block does not fit in the chain
+composite 15-15-15-15,20,earlier system's convolutions,43,43,1,8.0,

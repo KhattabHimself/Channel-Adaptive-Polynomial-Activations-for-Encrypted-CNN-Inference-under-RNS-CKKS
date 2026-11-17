@@ -1,0 +1,1 @@
+Paired tests against the unmodified network: composite 7-15-15: lost 0.66 [0.40, 0.92], p = 6.2e-07; composite 7-7-15: lost 1.16 [0.83, 1.51], p = 6.4e-12; composite 15-15-15: lost 0.44 [0.25, 0.64], p = 8e-06; single interpolant, degree 63, margin 0.5 (best on validation): lost 0.15 [-0.07, 0.36], p = 0.2

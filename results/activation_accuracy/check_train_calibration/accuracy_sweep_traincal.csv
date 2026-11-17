@@ -1,0 +1,18 @@
+# commit: None
+# commit_short: None
+# branch: None
+# describe: None
+# dirty: None
+# timestamp_utc: 2026-11-16T02:50:08.159103+00:00
+# script: traincal.py
+# argv: ['--budgets', '0.01', '0.003', '--intervals', '3', 'minmax']
+# hostname: unknown
+# container_image: unset
+# baseline_top1: 92.6
+# n_images: 10000
+# no_clamping: inputs outside Omega are extrapolated
+interval,budget_B,top1,baseline_top1,delta_points,degree_min,degree_median,degree_max,degree_mean,within_1_point
+3,0.01,10.0,92.6,-82.6,1,18.0,31,17.857558139534884,False
+3,0.003,10.0,92.6,-82.6,1,31.0,31,29.425872093023255,False
+minmax,0.01,89.42,92.6,-3.1799999999999926,1,31.0,31,27.607558139534884,False
+minmax,0.003,89.71,92.6,-2.8900000000000006,1,31.0,31,30.86627906976744,False

@@ -1,0 +1,1 @@
+Range dominates degree on 2/2 new targets. cifar10_resnet20: range 80.5 vs degree 63.6 pts; cifar10_resnet56: range 79.3 vs degree 74.8 pts; cifar100_resnet20: range 64.6 vs degree 57.3 pts

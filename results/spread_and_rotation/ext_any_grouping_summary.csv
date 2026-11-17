@@ -1,0 +1,23 @@
+# timestamp_utc: 2026-11-16T19:02:36.522425+00:00
+# argv: <project>\code\experiments\spread_and_rotation\any_grouping_bound.py
+# hostname: <laptop>  colab: False
+# experiment: any-grouping bound (extension)
+net,delta_model,G,cases,any_grouping_can_save_pct,share_a_channel_is_top_at_both_pct,sorted_rotates_pct,sorted_saves_a_level_pct,unrelated_reference_pct,median_channels,median_top_class_size_site1,median_top_class_size_site2
+cifar10_mobilenetv2_x1_0,A,2,80,1.25,98.75,1.25,0.0,7.7107580886366645,384.0,127.5,73.0
+cifar10_mobilenetv2_x1_0,A,4,80,1.25,98.75,3.75,0.0,7.7107580886366645,384.0,127.5,73.0
+cifar10_mobilenetv2_x1_0,A,8,80,1.25,98.75,6.25,0.0,7.7107580886366645,384.0,127.5,73.0
+cifar10_mobilenetv2_x1_0,B,2,80,5.0,95.0,1.25,0.0,7.840376421493414,384.0,101.0,39.0
+cifar10_mobilenetv2_x1_0,B,4,80,5.0,95.0,5.0,1.25,7.840376421493414,384.0,101.0,39.0
+cifar10_mobilenetv2_x1_0,B,8,80,5.0,95.0,7.5,1.25,7.840376421493414,384.0,101.0,39.0
+imagenet_mnasnet1_0,A,2,80,11.25,87.5,8.75,3.75,10.196539429780337,480.0,77.0,59.0
+imagenet_mnasnet1_0,A,4,80,12.5,87.5,13.750000000000002,6.25,10.196539429780337,480.0,77.0,59.0
+imagenet_mnasnet1_0,A,8,80,12.5,87.5,21.25,8.75,10.196539429780337,480.0,77.0,59.0
+imagenet_mnasnet1_0,B,2,80,13.750000000000002,83.75,7.5,1.25,11.941226074382783,480.0,23.0,54.5
+imagenet_mnasnet1_0,B,4,80,16.25,83.75,17.5,5.0,11.941226074382783,480.0,23.0,54.5
+imagenet_mnasnet1_0,B,8,80,16.25,83.75,31.25,11.25,11.941226074382783,480.0,23.0,54.5
+imagenet_mobilenetv2,A,2,80,7.5,91.25,8.75,2.5,6.285252511117487,384.0,73.5,144.0
+imagenet_mobilenetv2,A,4,80,8.75,91.25,15.0,3.75,6.285252511117487,384.0,73.5,144.0
+imagenet_mobilenetv2,A,8,80,8.75,91.25,21.25,3.75,6.285252511117487,384.0,73.5,144.0
+imagenet_mobilenetv2,B,2,80,7.5,91.25,6.25,2.5,6.985655541609254,384.0,37.0,144.0
+imagenet_mobilenetv2,B,4,80,8.75,91.25,16.25,3.75,6.985655541609254,384.0,37.0,144.0
+imagenet_mobilenetv2,B,8,80,8.75,91.25,27.500000000000004,3.75,6.985655541609254,384.0,37.0,144.0

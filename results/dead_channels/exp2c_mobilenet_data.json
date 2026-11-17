@@ -1,0 +1,54 @@
+{
+  "agreement": {
+    "weight_dead": 2175,
+    "data_constant": 7095,
+    "data_off": 5818,
+    "weight_dead_and_constant": 2138,
+    "weight_dead_share_constant": 0.9829885057471265,
+    "constant_share_weight_dead": 0.30133897110641295,
+    "weight_dead_median_gamma_rel": 0.003547784872353077,
+    "weight_dead_median_v_rel": 0.005468789621373308,
+    "weight_dead_median_running_std_rel": 0.34045910835266113,
+    "weight_dead_share_beta_le_0": 0.7172413793103448,
+    "constant_share_off": 0.8200140944326991,
+    "channels": 15552,
+    "sites": 35,
+    "share_linear": 0.1044238683127572,
+    "share_capped_channels": 0.0,
+    "share_values_capped": 0.0,
+    "median_site_spread_live_data": 2.6415668438009723
+  },
+  "rotation": {
+    "all channels": 0.075,
+    "without constant": 0.1,
+    "without weight_dead_0.001": 0.075
+  },
+  "baseline_top1": 94.05,
+  "published_top1": 93.79,
+  "const_rel": 0.001,
+  "VERDICT": "cifar10_mobilenetv2_x1_0: top-1 94.05 (published 93.79). 7095 of 15552 channels at activation sites have constant output on test images; 98% of exp2b's weight-dead channels are among them. Ablating the constant ones: 94.05%. Max rotation 0.075 -> 0.100 without them.",
+  "_provenance": {
+    "timestamp_utc": "2026-11-02T02:33:17.705347+00:00",
+    "hostname": "<laptop>",
+    "colab": false,
+    "python": "3.12.4",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "argv": "exp2c_mobilenet_data.py --data-root ../data",
+    "package_sha256": {
+      "core.py": "1fc7d1753b4ebc36",
+      "exp1_realignment.py": "53efc15c3ded130e",
+      "exp2_second_network.py": "c13ec7aeb335fbb4",
+      "exp2b_dead_channels.py": "2650a9f011d16328",
+      "exp2c_mobilenet_data.py": "381dc071cbdca2fd",
+      "exp3_range_selection.py": "c0b6a4df42c30c51",
+      "exp3b_tails.py": "822a5791a6fc71ac",
+      "exp4_time_gain.py": "bfd6dd8725654083",
+      "exp4b_interval_scale.py": "f34d65f3b78ec3a8",
+      "prefetch.py": "17f7b7ee1d9ee393",
+      "provenance.py": "59899589700ee2ad",
+      "verify_package.py": "677483e4aa033999"
+    },
+    "git_commit": null,
+    "git_dirty": false
+  }
+}

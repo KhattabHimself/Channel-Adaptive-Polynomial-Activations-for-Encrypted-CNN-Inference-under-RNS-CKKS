@@ -1,0 +1,15 @@
+# timestamp_utc: 2026-11-16T21:08:56.329136+00:00
+# argv: <project>\code\experiments\range_vs_degree\margin_and_layer_interval.py --data-root data
+# hostname: <laptop>  colab: False
+# experiment: margin, per-layer interval, calibration sample, paired tests (extension)
+target,calibration_block,degree,margin,test_top1,test_nonfinite_frac
+cifar10_resnet20,0,15,0.05,90.29,0.0061
+cifar10_resnet20,0,31,0.05,89.81,0.0296
+cifar10_resnet20,1,15,0.05,90.86999999999999,0.0037
+cifar10_resnet20,1,31,0.05,89.73,0.0284
+cifar10_resnet20,2,15,0.05,89.05,0.0064
+cifar10_resnet20,2,31,0.05,89.62,0.0302
+cifar10_resnet20,3,15,0.05,90.42,0.0063
+cifar10_resnet20,3,31,0.05,89.75999999999999,0.0267
+cifar10_resnet20,4,15,0.05,90.14,0.006
+cifar10_resnet20,4,31,0.05,89.62,0.0321

@@ -1,0 +1,1 @@
+Per-channel minus per-layer interval, test points: cifar10_resnet20 margin 0.05 degree 15: +40.04; cifar10_resnet20 margin 0.05 degree 31: -1.31; cifar10_resnet20 margin 0.5 degree 15: +40.07; cifar10_resnet20 margin 0.5 degree 31: +5.25

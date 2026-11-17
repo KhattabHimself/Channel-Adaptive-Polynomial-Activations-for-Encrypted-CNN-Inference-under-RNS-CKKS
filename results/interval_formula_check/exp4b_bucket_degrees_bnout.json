@@ -1,0 +1,31 @@
+{
+  "experiment": "EXP 4 stage 1: bucket degrees, MobileNetV2",
+  "control": "real_degrees_placement.csv",
+  "control_ok": false,
+  "rows_csv": "exp4b_bucket_degrees_bnout.csv",
+  "VERDICT": "CONTROL MISMATCH: 154 live regions vs 154 in the archive",
+  "_provenance": {
+    "timestamp_utc": "2026-11-02T02:27:51.669549+00:00",
+    "hostname": "<laptop>",
+    "colab": false,
+    "python": "3.12.4",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "argv": "exp4b_interval_scale.py",
+    "package_sha256": {
+      "core.py": "1fc7d1753b4ebc36",
+      "exp1_realignment.py": "53efc15c3ded130e",
+      "exp2_second_network.py": "c13ec7aeb335fbb4",
+      "exp2b_dead_channels.py": "2650a9f011d16328",
+      "exp2c_mobilenet_data.py": "381dc071cbdca2fd",
+      "exp3_range_selection.py": "c0b6a4df42c30c51",
+      "exp3b_tails.py": "822a5791a6fc71ac",
+      "exp4_time_gain.py": "bfd6dd8725654083",
+      "exp4b_interval_scale.py": "f34d65f3b78ec3a8",
+      "prefetch.py": "17f7b7ee1d9ee393",
+      "provenance.py": "59899589700ee2ad",
+      "verify_package.py": "677483e4aa033999"
+    },
+    "git_commit": null,
+    "git_dirty": false
+  }
+}

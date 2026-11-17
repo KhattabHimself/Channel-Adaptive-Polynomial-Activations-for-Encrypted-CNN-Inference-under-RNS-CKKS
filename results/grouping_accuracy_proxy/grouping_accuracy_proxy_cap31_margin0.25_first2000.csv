@@ -1,0 +1,37 @@
+# timestamp_utc: 2026-11-16T14:26:15.092744+00:00
+# argv: <project>\code\experiments\grouping_accuracy_proxy\grouping_accuracy_proxy.py --data-root data --images 2000 --cap 31 --margin 0.25
+# hostname: <laptop>  colab: False
+# experiment: accuracy proxy for the grouping time result
+# network: cifar10_mobilenetv2_x1_0
+# calib_images: 2000
+# calib_split: train
+# margin: 0.25
+# note: proxy: CIFAR-10 MobileNetV2, not the ImageNet MobileNetV2 of the time experiment
+budget_B,degrees,interval,degree_cap,margin,top1,baseline_top1,delta_points,nonfinite_logit_frac,degree_median,degree_mean,degree_max,sites_with_2plus_ciphertexts,channels_always_positive_beyond_clamp,n_images
+,uniform_3,observed,31,0.25,9.25,93.6,-84.35,0.0,3.0,3.0,3,0,0,2000
+,uniform_7,observed,31,0.25,22.35,93.6,-71.25,0.0,7.0,7.0,7,0,0,2000
+,uniform_15,observed,31,0.25,90.2,93.6,-3.3999999999999915,0.0005,15.0,15.0,15,0,0,2000
+,uniform_31,observed,31,0.25,93.15,93.6,-0.44999999999998863,0.0025,31.0,31.0,31,0,0,2000
+10.0,layerwise,observed,31,0.25,9.95,93.6,-83.64999999999999,0.0,1.0,1.0,1,18,1516,2000
+10.0,grouped,observed,31,0.25,9.95,93.6,-83.64999999999999,0.0,1.0,1.0,1,18,1516,2000
+10.0,per_channel,observed,31,0.25,9.95,93.6,-83.64999999999999,0.0,1.0,1.0,1,18,1516,2000
+3.0,layerwise,observed,31,0.25,9.95,93.6,-83.64999999999999,0.0,1.0,1.0462962962962963,2,18,1516,2000
+3.0,grouped,observed,31,0.25,9.95,93.6,-83.64999999999999,0.0,1.0,1.0327289094650205,2,18,1516,2000
+3.0,per_channel,observed,31,0.25,9.95,93.6,-83.64999999999999,0.0,1.0,1.0001929012345678,2,18,1516,2000
+1.0,layerwise,observed,31,0.25,9.8,93.6,-83.8,1.0,1.0,1.4835390946502058,4,18,1516,2000
+1.0,grouped,observed,31,0.25,9.8,93.6,-83.8,1.0,1.0,1.3782150205761317,4,18,1516,2000
+1.0,per_channel,observed,31,0.25,9.7,93.6,-83.89999999999999,0.0,1.0,1.0471965020576133,4,18,1516,2000
+0.3,layerwise,observed,31,0.25,9.8,93.6,-83.8,1.0,4.0,3.3580246913580245,14,18,1516,2000
+0.3,grouped,observed,31,0.25,9.8,93.6,-83.8,1.0,1.0,2.853780864197531,14,18,1516,2000
+0.3,per_channel,observed,31,0.25,9.8,93.6,-83.8,1.0,1.0,1.3957690329218106,14,18,1516,2000
+0.3,layerwise,three_std_from_weights,31,0.25,9.95,93.6,-83.64999999999999,0.0,4.0,3.3580246913580245,14,18,1,2000
+0.1,layerwise,observed,31,0.25,9.8,93.6,-83.8,1.0,8.0,8.636831275720164,31,18,1516,2000
+0.1,grouped,observed,31,0.25,9.8,93.6,-83.8,1.0,2.0,7.194251543209877,31,18,1516,2000
+0.1,per_channel,observed,31,0.25,9.8,93.6,-83.8,1.0,1.0,2.6597222222222223,31,18,1516,2000
+0.03,layerwise,observed,31,0.25,9.8,93.6,-83.8,1.0,28.0,17.61111111111111,31,18,1516,2000
+0.03,grouped,observed,31,0.25,9.8,93.6,-83.8,1.0,4.0,15.341049382716049,31,18,1516,2000
+0.03,per_channel,observed,31,0.25,9.8,93.6,-83.8,1.0,2.0,7.068737139917696,31,18,1516,2000
+0.01,layerwise,observed,31,0.25,75.65,93.6,-17.94999999999999,0.0045,31.0,20.246913580246915,31,18,1516,2000
+0.01,grouped,observed,31,0.25,69.9,93.6,-23.69999999999999,0.002,10.0,17.900462962962962,31,18,1516,2000
+0.01,per_channel,observed,31,0.25,10.3,93.6,-83.3,0.7895,4.0,10.715470679012345,31,18,1516,2000
+0.01,layerwise,three_std_from_weights,31,0.25,9.8,93.6,-83.8,1.0,31.0,20.246913580246915,31,18,1,2000

@@ -1,0 +1,1 @@
+BN-output interval vs archive: median spread cifar10_resnet20 1.47->1.82, imagenet_mobilenetv2 2.09->2.27; max rotation imagenet_mobilenetv2 0.275->0.075, cifar10_mobilenetv2_x1_0 0.075->0.025, imagenet_mnasnet1_0 0.312->0.125; MobileNetV2 time saving at B=0.01 13.5% -> 11.4%

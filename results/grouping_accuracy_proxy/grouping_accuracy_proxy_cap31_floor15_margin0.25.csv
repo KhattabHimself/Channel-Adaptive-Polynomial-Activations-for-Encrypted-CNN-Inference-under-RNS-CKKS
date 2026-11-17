@@ -1,0 +1,24 @@
+# timestamp_utc: 2026-11-16T16:30:42.636723+00:00
+# argv: <project>\code\experiments\grouping_accuracy_proxy\grouping_accuracy_proxy.py --data-root data --cap 31 --floor 15 --margin 0.25 --budgets 0.1 0.03 0.01
+# hostname: <laptop>  colab: False
+# experiment: accuracy proxy for the grouping time result
+# network: cifar10_mobilenetv2_x1_0
+# calib_images: 2000
+# calib_split: train
+# margin: 0.25
+# degree_floor: 15
+# note: proxy: CIFAR-10 MobileNetV2, not the ImageNet MobileNetV2 of the time experiment
+budget_B,degrees,interval,degree_cap,degree_floor,margin,top1,baseline_top1,delta_points,nonfinite_logit_frac,degree_median,degree_mean,degree_max,sites_with_2plus_ciphertexts,channels_always_positive_beyond_clamp,n_images
+,uniform_3,observed,31,15,0.25,10.0,94.05,-84.05,0.0,3.0,3.0,3,0,0,10000
+,uniform_7,observed,31,15,0.25,22.64,94.05,-71.41,0.0,7.0,7.0,7,0,0,10000
+,uniform_15,observed,31,15,0.25,90.0,94.05,-4.049999999999997,0.0003,15.0,15.0,15,0,0,10000
+,uniform_31,observed,31,15,0.25,93.3,94.05,-0.75,0.0032,31.0,31.0,31,0,0,10000
+0.1,layerwise,observed,31,15,0.25,90.36,94.05,-3.6899999999999977,0.0009,15.0,15.901234567901234,31,18,1516,10000
+0.1,grouped,observed,31,15,0.25,90.39,94.05,-3.6599999999999966,0.0007,15.0,15.56198559670782,31,18,1516,10000
+0.1,per_channel,observed,31,15,0.25,90.14,94.05,-3.9099999999999966,0.0003,15.0,15.004501028806585,31,18,1516,10000
+0.03,layerwise,observed,31,15,0.25,92.01,94.05,-2.039999999999992,0.0039,28.0,23.40740740740741,31,18,1516,10000
+0.03,grouped,observed,31,15,0.25,91.39,94.05,-2.6599999999999966,0.0033,15.0,22.030156893004115,31,18,1516,10000
+0.03,per_channel,observed,31,15,0.25,90.82,94.05,-3.230000000000004,0.0019,15.0,16.81147119341564,31,18,1516,10000
+0.01,layerwise,observed,31,15,0.25,92.32,94.05,-1.730000000000004,0.0035,31.0,23.689300411522634,31,18,1516,10000
+0.01,grouped,observed,31,15,0.25,92.11,94.05,-1.9399999999999977,0.0036,15.0,22.72222222222222,31,18,1516,10000
+0.01,per_channel,observed,31,15,0.25,92.09,94.05,-1.9599999999999937,0.0037,15.0,19.65997942386831,31,18,1516,10000

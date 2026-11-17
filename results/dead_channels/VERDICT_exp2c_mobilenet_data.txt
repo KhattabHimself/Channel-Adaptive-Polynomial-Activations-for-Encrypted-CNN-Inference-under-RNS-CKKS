@@ -1,0 +1,1 @@
+cifar10_mobilenetv2_x1_0: top-1 94.05 (published 93.79). 7095 of 15552 channels at activation sites have constant output on test images; 98% of exp2b's weight-dead channels are among them. Ablating the constant ones: 94.05%. Max rotation 0.075 -> 0.100 without them.

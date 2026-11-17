@@ -1,0 +1,18 @@
+# commit: cfd5623a654a6bf27f9cb87408c5e8b153f57df8
+# commit_short: cfd5623
+# branch: main
+# describe: canadian-ai-as-published-64-gcfd5623
+# dirty: False
+# timestamp_utc: 2026-08-23T04:27:49.301270+00:00
+# script: src\phase3\accuracy_sweep.py
+# argv: ['--budgets', '0.01', '0.003', '--intervals', '3', 'minmax']
+# hostname: unknown
+# container_image: unset
+# baseline_top1: 92.6
+# n_images: 10000
+# no_clamping: inputs outside Omega are extrapolated
+interval,budget_B,top1,baseline_top1,delta_points,degree_min,degree_median,degree_max,degree_mean,within_1_point
+3,0.01,10.0,92.6,-82.6,1,17.0,31,17.76889534883721,False
+3,0.003,10.0,92.6,-82.6,1,31.0,31,29.4578488372093,False
+minmax,0.01,89.87,92.6,-2.7299999999999898,1,31.0,31,27.66860465116279,False
+minmax,0.003,90.43,92.6,-2.1699999999999875,1,31.0,31,30.861918604651162,False

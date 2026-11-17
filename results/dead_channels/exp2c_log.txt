@@ -1,0 +1,42 @@
+============================================================
+| EXP 2c - CIFAR MobileNetV2 dead channels, on real images |
+============================================================
+Using cache found in <home>/.cache\torch\hub\chenyaofo_pytorch-cifar-models_master
+Files already downloaded and verified
+  baseline top-1 94.05% (published 93.79)
+Files already downloaded and verified
+weight_dead                            2175.000000
+data_constant                          7095.000000
+data_off                               5818.000000
+weight_dead_and_constant               2138.000000
+weight_dead_share_constant                0.982989
+constant_share_weight_dead                0.301339
+weight_dead_median_gamma_rel              0.003548
+weight_dead_median_v_rel                  0.005469
+weight_dead_median_running_std_rel        0.340459
+weight_dead_share_beta_le_0               0.717241
+constant_share_off                        0.820014
+channels                              15552.000000
+sites                                    35.000000
+share_linear                              0.104424
+share_capped_channels                     0.000000
+share_values_capped                       0.000000
+median_site_spread_live_data              2.641567
+  ablate constant            7095 ch -> 94.05%
+     random, seed 0           -> 10.00%
+     random, seed 1           -> 10.00%
+  ablate weight_dead_0.001   2175 ch -> 94.05%
+     random, seed 0           -> 10.00%
+     random, seed 1           -> 10.87%
+  ablate weight_dead_0.01    3695 ch -> 94.05%
+     random, seed 0           -> 10.00%
+     random, seed 1           -> 10.00%
+  ablate weight_dead_0.1     5379 ch -> 94.05%
+     random, seed 0           -> 10.00%
+     random, seed 1           -> 10.00%
+  max rotation: {'all channels': 0.075, 'without constant': 0.1, 'without weight_dead_0.001': 0.075}
+========================================================================================================
+| cifar10_mobilenetv2_x1_0: top-1 94.05 (published 93.79). 7095 of 15552 channels at activation sites  |
+| have constant output on test images; 98% of exp2b's weight-dead channels are among them. Ablating th |
+| e constant ones: 94.05%. Max rotation 0.075 -> 0.100 without them.                                   |
+========================================================================================================

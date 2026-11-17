@@ -1,0 +1,1 @@
+Margin sweep. cifar100_resnet20: best on validation margin 0.25 degree 63, test loss 0.41 points (at the thesis margin of 0.05 the best test loss is 2.98)

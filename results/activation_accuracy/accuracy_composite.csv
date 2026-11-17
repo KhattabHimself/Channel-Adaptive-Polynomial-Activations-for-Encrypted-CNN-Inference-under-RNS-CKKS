@@ -1,0 +1,20 @@
+# commit: b3156f1a28ec6112ff5ddb0d1a33c0778581e164
+# commit_short: b3156f1
+# branch: main
+# describe: b3156f1
+# dirty: False
+# timestamp_utc: 2026-11-16T12:31:59.162124+00:00
+# script: experiments\activation_accuracy\per_channel_degree_accuracy.py
+# argv: ['--approximant', 'composite', '--compositions', '1', '2', '3', '4', '5']
+# hostname: unknown
+# container_image: unset
+# baseline_top1: 92.6
+# n_images: 10000
+# approximant: Lee-style composite minimax sign
+# calib_split: train
+approximant,interval,compositions_k,effective_degree,depth_levels_deltaB,top1,baseline_top1,delta_points,within_1_point
+composite,minmax,1,7,4,10.35,92.6,-82.25,False
+composite,minmax,2,49,8,68.7,92.6,-23.89999999999999,False
+composite,minmax,3,343,12,90.08,92.6,-2.519999999999996,False
+composite,minmax,4,2401,16,91.98,92.6,-0.6199999999999903,True
+composite,minmax,5,16807,20,92.49,92.6,-0.10999999999999943,True

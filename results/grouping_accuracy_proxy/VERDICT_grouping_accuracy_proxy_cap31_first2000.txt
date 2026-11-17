@@ -1,0 +1,1 @@
+cifar10_mobilenetv2_x1_0, CIFAR-10, unmodified 93.60%. Best polynomial setting: 10.85% (B=1, grouped). At the tightest budget B=0.01: layerwise 9.80%, grouped 9.80%, per-channel 9.80%. Uniform degrees for reference: d=3 9.25%, d=7 53.00%, d=15 88.00%, d=31 76.15%.

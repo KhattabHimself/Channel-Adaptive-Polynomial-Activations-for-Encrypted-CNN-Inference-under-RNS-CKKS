@@ -1,0 +1,36 @@
+===================================================================
+| EXP 4b - BN-output interval vs the archive's folded-BN interval |
+===================================================================
+Using cache found in <home>/.cache\torch\hub\chenyaofo_pytorch-cifar-models_master
+{'net': 'cifar10_resnet20', 'scale_factor': 0.192, 'spread_archive': 1.472, 'spread_bnout': 1.823, 'degree_changed_share_B0.01': 0.884, 'degree_changed_share_B0.1': 0.585}
+{'net': 'imagenet_mobilenetv2', 'scale_factor': 0.03, 'spread_archive': 2.094, 'spread_bnout': 2.269, 'max_rotation_archive': 0.275, 'max_rotation_bnout': 0.075, 'degree_changed_share_B0.01': 0.561, 'degree_changed_share_B0.1': 0.962}
+Using cache found in <home>/.cache\torch\hub\chenyaofo_pytorch-cifar-models_master
+{'net': 'cifar10_resnet56', 'scale_factor': 0.119, 'spread_archive': 1.588, 'spread_bnout': 2.062, 'degree_changed_share_B0.01': 0.944, 'degree_changed_share_B0.1': 0.627}
+Using cache found in <home>/.cache\torch\hub\chenyaofo_pytorch-cifar-models_master
+{'net': 'cifar100_resnet20', 'scale_factor': 0.4, 'spread_archive': 1.478, 'spread_bnout': 1.726, 'degree_changed_share_B0.01': 0.893, 'degree_changed_share_B0.1': 0.702}
+Using cache found in <home>/.cache\torch\hub\chenyaofo_pytorch-cifar-models_master
+{'net': 'cifar10_mobilenetv2_x1_0', 'scale_factor': 0.038, 'spread_archive': 75033.588, 'spread_bnout': 554596.128, 'max_rotation_archive': 0.075, 'max_rotation_bnout': 0.025, 'degree_changed_share_B0.01': 0.546, 'degree_changed_share_B0.1': 0.417}
+{'net': 'imagenet_mnasnet1_0', 'scale_factor': 1.82, 'spread_archive': 2.152, 'spread_bnout': 2.409, 'max_rotation_archive': 0.312, 'max_rotation_bnout': 0.125, 'degree_changed_share_B0.01': 0.623, 'degree_changed_share_B0.1': 0.488}
+============================================================
+| CONTROL MISMATCH: 154 live regions vs 154 in the archive |
+============================================================
+                     net  scale_factor  spread_archive  spread_bnout  degree_changed_share_B0.01  degree_changed_share_B0.1  max_rotation_archive  max_rotation_bnout
+        cifar10_resnet20         0.192           1.472         1.823                       0.884                      0.585                   NaN                 NaN
+    imagenet_mobilenetv2         0.030           2.094         2.269                       0.561                      0.962                 0.275               0.075
+        cifar10_resnet56         0.119           1.588         2.062                       0.944                      0.627                   NaN                 NaN
+       cifar100_resnet20         0.400           1.478         1.726                       0.893                      0.702                   NaN                 NaN
+cifar10_mobilenetv2_x1_0         0.038       75033.588    554596.128                       0.546                      0.417                 0.075               0.025
+     imagenet_mnasnet1_0         1.820           2.152         2.409                       0.623                      0.488                 0.312               0.125
+ budget_B  median_region_degree_max_archive  time_saving_pct_archive  median_region_degree_max_bnout  time_saving_pct_bnout
+     0.01                              63.0                    13.52                            63.0                  11.44
+     0.03                              63.0                    27.90                            63.0                  23.63
+     0.10                              50.0                    45.79                            42.0                  35.43
+     0.30                              16.0                    57.12                            14.0                  50.65
+     1.00                               6.0                    65.89                             5.0                  67.76
+     3.00                               2.0                    74.49                             2.0                  74.88
+    10.00                               1.0                    55.58                             1.0                  63.16
+========================================================================================================
+| BN-output interval vs archive: median spread cifar10_resnet20 1.47->1.82, imagenet_mobilenetv2 2.09- |
+| >2.27; max rotation imagenet_mobilenetv2 0.275->0.075, cifar10_mobilenetv2_x1_0 0.075->0.025, imagen |
+| et_mnasnet1_0 0.312->0.125; MobileNetV2 time saving at B=0.01 13.5% -> 11.4%                         |
+========================================================================================================

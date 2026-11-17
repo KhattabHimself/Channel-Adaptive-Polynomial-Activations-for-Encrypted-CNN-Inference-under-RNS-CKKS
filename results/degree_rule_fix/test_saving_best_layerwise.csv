@@ -1,0 +1,8 @@
+# timestamp_utc: 2026-11-16T21:05:27.795788+00:00
+# argv: <project>\code\experiments\degree_rule_fix\degree_rule_fix.py retime --data-root data
+# hostname: <laptop>  colab: False
+# experiment: degree rule fix, times recomputed with one ciphertext count for both settings
+# network: cifar10_mobilenetv2_x1_0
+bar_points,grouped_rule,layerwise_rule,grouped_validation_lost,layerwise_validation_lost,grouped_test_top1,layerwise_test_top1,grouped_test_lost,layerwise_test_lost,grouped_s_mean,layerwise_s_mean,saving_pct_mean,saving_pct_std
+1.0,site_norm B=0.02 floor=1 cap=31 margin=0.25,site_norm B=0.04 floor=1 cap=31 margin=0.25,0.3500000000000085,0.6500000000000057,93.37,92.58,0.6799999999999926,1.4699999999999989,44.643998323871344,51.25258921701315,13.100095873830998,10.977973428966424
+2.0,uniform d=15 margin=0.1,uniform d=15 margin=0.1,1.75,1.75,91.76,91.76,2.289999999999992,2.289999999999992,38.09847249164159,44.7415109016365,14.847442433370535,0.009358068435528012

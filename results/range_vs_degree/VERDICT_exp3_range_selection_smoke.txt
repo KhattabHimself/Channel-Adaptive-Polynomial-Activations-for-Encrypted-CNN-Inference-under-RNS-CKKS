@@ -1,0 +1,1 @@
+SMOKE RUN ONLY (subset of images) - not a result. cifar10_resnet20: range 82.8 vs degree 68.5 pts

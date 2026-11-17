@@ -1,0 +1,1 @@
+one bootstrap at N=2^16, 32768 slots: 144.9 s

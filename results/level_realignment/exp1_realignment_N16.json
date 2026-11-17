@@ -1,0 +1,103 @@
+{
+  "experiment": "EXP 1 realignment / partition invariance (R2)",
+  "logN": 16,
+  "ring_dim": 65536,
+  "depth_budget": 30,
+  "scale_bits": 40,
+  "channel_degrees": [
+    15,
+    15,
+    7,
+    7,
+    3,
+    3,
+    1,
+    1
+  ],
+  "partitions": {
+    "balanced": {
+      "buckets": [
+        [
+          0,
+          2,
+          4,
+          6
+        ],
+        [
+          1,
+          3,
+          5,
+          7
+        ]
+      ],
+      "bucket_degrees": [
+        15,
+        15
+      ],
+      "levels_per_bucket": [
+        6,
+        6
+      ],
+      "bucket_levels_before_add": [
+        5,
+        5
+      ],
+      "output_level": 5
+    },
+    "sorted": {
+      "buckets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "bucket_degrees": [
+        15,
+        3
+      ],
+      "levels_per_bucket": [
+        6,
+        4
+      ],
+      "bucket_levels_before_add": [
+        5,
+        3
+      ],
+      "output_level": 5
+    }
+  },
+  "distinct_output_levels": [
+    5
+  ],
+  "falsification_condition": "FALSIFICATION: if the two partitions give DIFFERENT output levels, R2 is REFUTED and Condition 2, R3 and R4 re-open.",
+  "level_counting": "OpenFHE GetLevel() counts levels consumed",
+  "small_n_caveat": "logN < 14 tests level semantics only; not a security, precision or performance claim",
+  "VERDICT": "R2 CONFIRMED: both partitions leave the output at level 5. Placement did not change the level.",
+  "_provenance": {
+    "timestamp_utc": "2026-10-28T15:03:59.640750+00:00",
+    "hostname": "a55f498aa4ec",
+    "colab": false,
+    "python": "3.10.22",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.41",
+    "argv": "exp1_realignment.py --logN 16 --depth 30",
+    "package_sha256": {
+      "core.py": "1fc7d1753b4ebc36",
+      "exp1_realignment.py": "53efc15c3ded130e",
+      "exp2_second_network.py": "c13ec7aeb335fbb4",
+      "exp3_range_selection.py": "c0b6a4df42c30c51",
+      "prefetch.py": "17f7b7ee1d9ee393",
+      "provenance.py": "59899589700ee2ad",
+      "verify_package.py": "677483e4aa033999"
+    },
+    "git_commit": null,
+    "git_dirty": false
+  }
+}

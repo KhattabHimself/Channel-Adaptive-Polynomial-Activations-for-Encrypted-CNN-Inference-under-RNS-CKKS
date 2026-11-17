@@ -1,0 +1,23 @@
+# commit: 63d3c72b4d1c985d12bdc68ea75a26cb5c4feb48
+# commit_short: 63d3c72
+# branch: phase5-oa-composite
+# describe: canadian-ai-as-published-72-g63d3c72
+# dirty: False
+# timestamp_utc: 2026-08-23T11:50:25.474689+00:00
+# script: src\phase5\oa_composite.py
+# argv: ['--out', 'oa_composite_frontier.csv', '--sequences', '15-15-15', '7-7-7-15', '3-7-15-15', '7-7-15-15', '3-15-15-15', '7-15-15-15', '15-15-15-15', '7-7-7-7', '3-3-3-15-15']
+# hostname: unknown
+# container_image: unset
+# baseline_top1: 92.6
+# components: (3, 7, 15)
+# n_images: 10000
+sequence,n_components,effective_degree,depth_A,depth_B,top1,baseline_top1,delta_points,within_1_point
+15-15-15,3,3375,12,15,92.14,92.6,-0.45999999999999375,True
+7-7-7-15,4,5145,13,17,92.17,92.6,-0.4299999999999926,True
+3-7-15-15,4,4725,13,17,92.16,92.6,-0.4399999999999977,True
+7-7-15-15,4,11025,14,18,92.37,92.6,-0.22999999999998977,True
+3-15-15-15,4,10125,14,18,92.38,92.6,-0.21999999999999886,True
+7-15-15-15,4,23625,15,19,92.52,92.6,-0.0799999999999983,True
+15-15-15-15,4,50625,16,20,92.56,92.6,-0.03999999999999204,True
+7-7-7-7,4,2401,12,16,91.9,92.6,-0.6999999999999886,True
+3-3-3-15-15,5,6075,14,19,92.16,92.6,-0.4399999999999977,True

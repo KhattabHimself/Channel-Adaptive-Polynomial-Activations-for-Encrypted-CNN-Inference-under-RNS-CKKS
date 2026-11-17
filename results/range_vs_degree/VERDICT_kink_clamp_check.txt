@@ -1,0 +1,1 @@
+Kink clamp: cifar10_resnet20 d=15: +0.00 points when made exact; cifar10_resnet20 d=31: +0.00 points when made exact; cifar10_resnet56 d=15: +0.00 points when made exact; cifar10_resnet56 d=31: +0.00 points when made exact. Affected channels: cifar10_resnet20 0 of 688, cifar10_resnet56 0 of 2032

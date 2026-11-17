@@ -1,0 +1,13 @@
+# timestamp_utc: 2026-11-16T13:45:22.201866+00:00
+# argv: <project>\code\experiments\range_vs_degree\kink_clamp_check.py --data-root data
+# hostname: <laptop>  colab: False
+# experiment: kink clamp check, observed-range interval, train calibration
+target,degree,handling,top1,baseline_top1,delta_points,nonfinite_logit_frac,channels,channels_kink_below_-1.5,channels_always_positive,channels_always_negative
+cifar10_resnet20,15,as in the range experiment,90.29,92.6,-2.309999999999988,0.0061,688,0,0,2
+cifar10_resnet20,15,exact,90.29,92.6,-2.309999999999988,0.0061,688,0,0,2
+cifar10_resnet20,31,as in the range experiment,89.81,92.6,-2.789999999999992,0.0296,688,0,0,2
+cifar10_resnet20,31,exact,89.81,92.6,-2.789999999999992,0.0296,688,0,0,2
+cifar10_resnet56,15,as in the range experiment,91.48,94.37,-2.8900000000000006,0.0173,2032,0,0,0
+cifar10_resnet56,15,exact,91.48,94.37,-2.8900000000000006,0.0173,2032,0,0,0
+cifar10_resnet56,31,as in the range experiment,87.74,94.37,-6.63000000000001,0.0708,2032,0,0,0
+cifar10_resnet56,31,exact,87.74,94.37,-6.63000000000001,0.0708,2032,0,0,0

@@ -1,0 +1,18 @@
+# timestamp_utc: 2026-11-16T21:05:27.795788+00:00
+# argv: <project>\code\experiments\degree_rule_fix\degree_rule_fix.py retime --data-root data
+# hostname: <laptop>  colab: False
+# experiment: degree rule fix, times recomputed with one ciphertext count for both settings
+# network: cifar10_mobilenetv2_x1_0
+rule,rule_json,setting,split,n_images,top1,unmodified_top1,points_lost,nonfinite_frac,crossing_channels,identity_channels,zero_channels,median_degree_crossing,ciphertexts,activation_s_mean,activation_s_std
+site_norm B=0.02 floor=1 cap=31 margin=0.25,"{""B"": 0.02, ""cap"": 31, ""floor"": 1, ""margin"": 0.25, ""rule"": ""site_norm""}",layerwise,test,10000,93.32,94.05,0.730000000000004,0.0033,8442,1567,5543,13.0,67.0,60.515171468132756,13.154926089300062
+site_norm B=0.02 floor=1 cap=31 margin=0.25,"{""B"": 0.02, ""cap"": 31, ""floor"": 1, ""margin"": 0.25, ""rule"": ""site_norm""}",grouped,test,10000,93.37,94.05,0.6799999999999926,0.0029,8442,1567,5543,13.0,67.0,44.643998323871344,6.948885472674559
+site_norm B=0.02 floor=1 cap=31 margin=0.25,"{""B"": 0.02, ""cap"": 31, ""floor"": 1, ""margin"": 0.25, ""rule"": ""site_norm""}",grouped_by_time,test,10000,93.37,94.05,0.6799999999999926,0.0029,8442,1567,5543,13.0,67.0,44.643998323871344,6.948885472674559
+site_norm B=0.02 floor=1 cap=31 margin=0.25,"{""B"": 0.02, ""cap"": 31, ""floor"": 1, ""margin"": 0.25, ""rule"": ""site_norm""}",per_channel,test,10000,92.48,94.05,1.5699999999999932,0.0059,8442,1567,5543,13.0,,,
+site_norm B=0.04 floor=1 cap=31 margin=0.25,"{""B"": 0.04, ""cap"": 31, ""floor"": 1, ""margin"": 0.25, ""rule"": ""site_norm""}",layerwise,test,10000,92.58,94.05,1.4699999999999989,0.0021,8442,1567,5543,7.0,67.0,51.25258921701315,1.764151490350903
+site_norm B=0.04 floor=1 cap=31 margin=0.25,"{""B"": 0.04, ""cap"": 31, ""floor"": 1, ""margin"": 0.25, ""rule"": ""site_norm""}",grouped,test,10000,82.84,94.05,11.209999999999994,0.0018,8442,1567,5543,7.0,67.0,35.81268436261744,1.0493301109774107
+site_norm B=0.04 floor=1 cap=31 margin=0.25,"{""B"": 0.04, ""cap"": 31, ""floor"": 1, ""margin"": 0.25, ""rule"": ""site_norm""}",grouped_by_time,test,10000,82.84,94.05,11.209999999999994,0.0018,8442,1567,5543,7.0,67.0,35.81268436261744,1.0493301109774107
+site_norm B=0.04 floor=1 cap=31 margin=0.25,"{""B"": 0.04, ""cap"": 31, ""floor"": 1, ""margin"": 0.25, ""rule"": ""site_norm""}",per_channel,test,10000,79.95,94.05,14.099999999999994,0.0001,8442,1567,5543,7.0,,,
+uniform d=15 margin=0.1,"{""d"": 15, ""margin"": 0.1, ""rule"": ""uniform""}",layerwise,test,10000,91.76,94.05,2.289999999999992,0.0112,8223,1595,5734,15.0,67.0,44.7415109016365,2.4443998613213997
+uniform d=15 margin=0.1,"{""d"": 15, ""margin"": 0.1, ""rule"": ""uniform""}",grouped,test,10000,91.76,94.05,2.289999999999992,0.0112,8223,1595,5734,15.0,67.0,38.09847249164159,2.0797174050877874
+uniform d=15 margin=0.1,"{""d"": 15, ""margin"": 0.1, ""rule"": ""uniform""}",grouped_by_time,test,10000,91.76,94.05,2.289999999999992,0.0112,8223,1595,5734,15.0,67.0,38.09847249164159,2.0797174050877874
+uniform d=15 margin=0.1,"{""d"": 15, ""margin"": 0.1, ""rule"": ""uniform""}",per_channel,test,10000,91.76,94.05,2.289999999999992,0.0112,8223,1595,5734,15.0,,,

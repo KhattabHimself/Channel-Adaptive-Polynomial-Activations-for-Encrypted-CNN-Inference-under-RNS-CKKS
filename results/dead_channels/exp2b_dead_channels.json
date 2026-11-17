@@ -1,0 +1,28 @@
+{
+  "experiment": "EXP 2b dead channels",
+  "dead_rel": 0.001,
+  "rows_csv": "exp2b_dead_channels.csv",
+  "VERDICT": "cifar10_mobilenetv2_x1_0: 2176 of 17056 channels dead (12.8%) on 33/52 sites; median spread 7.503e+04 with them, 43.374 without",
+  "_provenance": {
+    "timestamp_utc": "2026-11-01T22:01:40.691885+00:00",
+    "hostname": "<laptop>",
+    "colab": false,
+    "python": "3.12.4",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "argv": "exp2b_dead_channels.py",
+    "package_sha256": {
+      "core.py": "1fc7d1753b4ebc36",
+      "exp1_realignment.py": "53efc15c3ded130e",
+      "exp2_second_network.py": "c13ec7aeb335fbb4",
+      "exp2b_dead_channels.py": "2650a9f011d16328",
+      "exp3_range_selection.py": "c0b6a4df42c30c51",
+      "exp3b_tails.py": "a634351a45853fca",
+      "exp4_time_gain.py": "7fde260261557e79",
+      "prefetch.py": "17f7b7ee1d9ee393",
+      "provenance.py": "59899589700ee2ad",
+      "verify_package.py": "677483e4aa033999"
+    },
+    "git_commit": null,
+    "git_dirty": false
+  }
+}

@@ -1,0 +1,1 @@
+ReLU network 97.09% on the test set. Margin 0.1, uniform degree 15. In ordinary arithmetic: A uniform: 96.87%; B per-channel: 96.94%; C per-channel raised to layer maximum: 96.93%; D uniform, three standard deviations: 61.49%

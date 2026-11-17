@@ -7,8 +7,32 @@ CILS Lab
 **Supervisor:** Dr. Lydia Bouzar-Benlabiod
 **Status:** in progress, defense planned for April 2027
 
-> The source code, experiment scripts and results will be made available here
-> after the thesis is defended.
+> This branch (`extensions`) holds the experiment code and the result files.
+> The thesis text is not in this repository. A few files are held back and
+> will be added later.
+
+## What is on this branch
+
+    code/
+      src/           shared code
+      experiments/   one folder per experiment, each with a README
+      scripts/       figures, timing summaries, statistics, cost model, OpenFHE container
+      tests/         automated tests
+      reproduce.py   one command per result, and a check of the saved results
+      environment.yml
+    results/         one folder per experiment, same names as code/experiments/
+
+From the `code/` folder:
+
+    python reproduce.py list      what can be reproduced, and how long it takes
+    python reproduce.py check     compare the saved result files with the expected numbers
+    python reproduce.py run <name>
+
+Python 3.12 with PyTorch 2.4.1 on CPU (`environment.yml`). The encrypted
+experiments use OpenFHE 1.6.1 in a Linux container
+(`code/scripts/openfhe_docker`). Pretrained models and datasets download
+themselves on first use. In the result files, local paths and the machine
+name have been replaced by placeholders such as `<project>`.
 
 ## What this is about
 

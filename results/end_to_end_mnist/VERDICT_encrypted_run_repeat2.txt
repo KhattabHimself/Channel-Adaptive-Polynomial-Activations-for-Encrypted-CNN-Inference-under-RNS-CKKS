@@ -1,0 +1,1 @@
+A uniform: encrypted 96.87% (plain polynomial 96.87%), server 80s of which activations 52s, final level 13 of 14; B per-channel: encrypted 96.94% (plain polynomial 96.94%), server 66s of which activations 43s, final level 13 of 14; C per-channel raised to layer maximum: encrypted 96.93% (plain polynomial 96.93%), server 58s of which activations 41s, final level 13 of 14

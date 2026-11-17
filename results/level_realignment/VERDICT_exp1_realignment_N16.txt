@@ -1,0 +1,1 @@
+R2 CONFIRMED: both partitions leave the output at level 5. Placement did not change the level.

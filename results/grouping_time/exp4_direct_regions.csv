@@ -1,0 +1,10 @@
+# timestamp_utc: 2026-11-01T21:56:14.072822+00:00
+# argv: exp4_time_gain.py time --reps 5 --depths 12 24 --bootstrap
+# hostname: 56cf6674d59b  colab: False
+# experiment: EXP 4 stage 2b: direct region timing
+# chain_depth: 12
+budget_B,layout,activations,seconds
+1.0,placed,261,12.576727183998628
+1.0,layerwise,261,43.13493287899905
+0.3,placed,261,35.68551274800279
+0.3,layerwise,261,84.25587885000141

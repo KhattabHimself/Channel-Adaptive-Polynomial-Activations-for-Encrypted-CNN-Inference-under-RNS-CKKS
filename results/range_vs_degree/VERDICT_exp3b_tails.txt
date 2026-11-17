@@ -1,0 +1,1 @@
+ResNet-20: 100% of channels see test values beyond 3 std (median 7.0 std, kurtosis 4.4 vs 3 for a Gaussian); median share outside 3 std 0.97% vs 0.27%

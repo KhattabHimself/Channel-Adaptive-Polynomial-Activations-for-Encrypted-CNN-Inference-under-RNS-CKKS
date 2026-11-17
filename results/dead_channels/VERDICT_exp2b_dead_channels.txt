@@ -1,0 +1,1 @@
+cifar10_mobilenetv2_x1_0: 2176 of 17056 channels dead (12.8%) on 33/52 sites; median spread 7.503e+04 with them, 43.374 without

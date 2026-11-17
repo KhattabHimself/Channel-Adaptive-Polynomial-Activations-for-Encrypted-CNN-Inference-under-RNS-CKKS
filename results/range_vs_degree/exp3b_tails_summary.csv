@@ -1,0 +1,7 @@
+# timestamp_utc: 2026-11-01T22:07:02.289511+00:00
+# argv: exp3b_tails.py --data-root ../data --targets cifar10_resnet20 cifar10_resnet56
+# hostname: <laptop>  colab: False
+# experiment: EXP 3b summary
+net,channels,median_out_3sd_pct,median_out_6sd_pct,share_channels_beyond_3sd,share_channels_beyond_6sd,median_zmax,median_kurtosis
+cifar10_resnet20,688,0.9740234375,0.002734375,0.998546511627907,0.7659883720930233,7.014951944351196,4.437401108658639
+cifar10_resnet56,2032,0.997119140625,0.0033203125,0.9990157480314961,0.7416338582677166,7.116544723510742,4.525174074224319

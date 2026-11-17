@@ -1,0 +1,19 @@
+# commit: 72d83855acde6a146c9ec5f6b1942fb639ad37ea
+# commit_short: 72d8385
+# branch: main
+# describe: canadian-ai-as-published-63-g72d8385
+# dirty: False
+# timestamp_utc: 2026-08-23T04:26:18.648210+00:00
+# script: src\phase3\accuracy_sweep.py
+# argv: ['--approximant', 'composite', '--compositions', '1', '2', '3', '4', '5']
+# hostname: unknown
+# container_image: unset
+# baseline_top1: 92.6
+# n_images: 10000
+# approximant: Lee-style composite minimax sign
+approximant,interval,compositions_k,effective_degree,depth_levels_deltaB,top1,baseline_top1,delta_points,within_1_point
+composite,minmax,1,7,4,11.67,92.6,-80.92999999999999,False
+composite,minmax,2,49,8,70.09,92.6,-22.50999999999999,False
+composite,minmax,3,343,12,89.71,92.6,-2.8900000000000006,False
+composite,minmax,4,2401,16,91.9,92.6,-0.6999999999999886,True
+composite,minmax,5,16807,20,92.47,92.6,-0.12999999999999545,True

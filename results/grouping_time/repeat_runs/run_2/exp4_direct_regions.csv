@@ -1,0 +1,10 @@
+# timestamp_utc: 2026-11-16T11:27:20.503240+00:00
+# argv: /work/code/experiments/grouping_time/grouping_time.py time --reps 5 --depths 12
+# hostname: 45a2faec3c25  colab: False
+# experiment: EXP 4 stage 2b: direct region timing
+# chain_depth: 12
+budget_B,layout,activations,seconds
+1.0,placed,261,13.596893862973957
+1.0,layerwise,261,45.07701031201577
+0.3,placed,261,39.772174856952915
+0.3,layerwise,261,89.17648183310666

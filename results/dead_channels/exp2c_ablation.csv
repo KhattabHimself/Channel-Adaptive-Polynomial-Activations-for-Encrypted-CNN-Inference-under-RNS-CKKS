@@ -1,0 +1,19 @@
+# timestamp_utc: 2026-11-02T02:33:17.705347+00:00
+# argv: exp2c_mobilenet_data.py --data-root ../data
+# hostname: <laptop>  colab: False
+# experiment: EXP 2c mean ablation
+# calib_images: 2000
+set,kind,channels,top1
+none,baseline,0,94.05
+constant,this set,7095,94.05
+constant,random seed 0,7095,10.0
+constant,random seed 1,7095,10.0
+weight_dead_0.001,this set,2175,94.05
+weight_dead_0.001,random seed 0,2175,10.0
+weight_dead_0.001,random seed 1,2175,10.87
+weight_dead_0.01,this set,3695,94.05
+weight_dead_0.01,random seed 0,3695,10.0
+weight_dead_0.01,random seed 1,3695,10.0
+weight_dead_0.1,this set,5379,94.05
+weight_dead_0.1,random seed 0,5379,10.0
+weight_dead_0.1,random seed 1,5379,10.0

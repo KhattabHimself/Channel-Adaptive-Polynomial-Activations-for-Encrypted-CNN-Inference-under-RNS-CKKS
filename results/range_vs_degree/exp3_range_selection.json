@@ -1,0 +1,71 @@
+{
+  "experiment": "EXP 3 approximation range vs degree",
+  "rules": [
+    "minmax",
+    "sigma2",
+    "sigma3",
+    "sigma4",
+    "sigma6",
+    "pct1",
+    "pct0.1"
+  ],
+  "degrees": [
+    7,
+    15,
+    31,
+    63
+  ],
+  "calib_split": "test",
+  "calib_images": 2000,
+  "device": "cuda",
+  "per_target": {
+    "cifar10_resnet20": {
+      "dataset": "cifar10",
+      "baseline_top1": 92.59,
+      "published_top1": 92.6,
+      "range_effect_d31": 80.51,
+      "degree_effect_minmax": 63.56,
+      "range_dominates": true,
+      "archived_for_orientation": {
+        "minmax": -2.17,
+        "sigma3": -82.6
+      }
+    },
+    "cifar10_resnet56": {
+      "dataset": "cifar10",
+      "baseline_top1": 94.38,
+      "published_top1": 94.37,
+      "range_effect_d31": 79.34,
+      "degree_effect_minmax": 74.75,
+      "range_dominates": true
+    },
+    "cifar100_resnet20": {
+      "dataset": "cifar100",
+      "baseline_top1": 68.84,
+      "published_top1": 68.83,
+      "range_effect_d31": 64.64,
+      "degree_effect_minmax": 57.27,
+      "range_dominates": true
+    }
+  },
+  "VERDICT": "Range dominates degree on 2/2 new targets. cifar10_resnet20: range 80.5 vs degree 63.6 pts; cifar10_resnet56: range 79.3 vs degree 74.8 pts; cifar100_resnet20: range 64.6 vs degree 57.3 pts",
+  "_provenance": {
+    "timestamp_utc": "2026-10-28T14:25:08.739070+00:00",
+    "hostname": "g2.nibi.sharcnet",
+    "colab": false,
+    "python": "3.11.5",
+    "platform": "Linux-5.14.0-687.59.1.el9_8.x86_64-x86_64-INTEL-R-_XEON-R-_PLATINUM_8570-with-glibc2.37",
+    "argv": "code/exp3_range_selection.py --data-root <cluster scratch>/thesis_cache/data",
+    "package_sha256": {
+      "core.py": "1fc7d1753b4ebc36",
+      "exp1_realignment.py": "53efc15c3ded130e",
+      "exp2_second_network.py": "c13ec7aeb335fbb4",
+      "exp3_range_selection.py": "c0b6a4df42c30c51",
+      "prefetch.py": "17f7b7ee1d9ee393",
+      "provenance.py": "59899589700ee2ad",
+      "verify_package.py": "677483e4aa033999"
+    },
+    "git_commit": null,
+    "git_dirty": false
+  }
+}

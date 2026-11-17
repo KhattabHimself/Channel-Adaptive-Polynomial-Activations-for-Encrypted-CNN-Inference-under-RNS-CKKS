@@ -1,0 +1,28 @@
+{
+  "experiment": "EXP 3b tails",
+  "images": 2000,
+  "rows_csv": "exp3b_tails.csv",
+  "VERDICT": "ResNet-20: 100% of channels see test values beyond 3 std (median 7.0 std, kurtosis 4.4 vs 3 for a Gaussian); median share outside 3 std 0.97% vs 0.27%",
+  "_provenance": {
+    "timestamp_utc": "2026-11-01T22:07:02.289511+00:00",
+    "hostname": "<laptop>",
+    "colab": false,
+    "python": "3.12.4",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "argv": "exp3b_tails.py --data-root ../data --targets cifar10_resnet20 cifar10_resnet56",
+    "package_sha256": {
+      "core.py": "1fc7d1753b4ebc36",
+      "exp1_realignment.py": "53efc15c3ded130e",
+      "exp2_second_network.py": "c13ec7aeb335fbb4",
+      "exp2b_dead_channels.py": "2650a9f011d16328",
+      "exp3_range_selection.py": "c0b6a4df42c30c51",
+      "exp3b_tails.py": "822a5791a6fc71ac",
+      "exp4_time_gain.py": "bfd6dd8725654083",
+      "prefetch.py": "17f7b7ee1d9ee393",
+      "provenance.py": "59899589700ee2ad",
+      "verify_package.py": "677483e4aa033999"
+    },
+    "git_commit": null,
+    "git_dirty": false
+  }
+}

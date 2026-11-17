@@ -1,0 +1,1 @@
+Share of (region, budget) cases in which SOME grouping can save a level: at most 16.2% over the 18 (network, depth model, G) cells; a channel is in the top level class at both sites in 84 to 99% of cases. The sorted grouping saves a level in at most 11.2% of cases.

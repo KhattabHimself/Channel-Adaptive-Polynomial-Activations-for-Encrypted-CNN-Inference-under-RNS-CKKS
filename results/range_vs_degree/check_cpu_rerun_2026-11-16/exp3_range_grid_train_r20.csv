@@ -1,0 +1,34 @@
+# timestamp_utc: 2026-11-16T02:43:51.288549+00:00
+# argv: exp3_range_selection.py --targets cifar10_resnet20 --calib-split train --data-root <scratch> --tag train_r20
+# hostname: <laptop>  colab: False
+# experiment: EXP 3 approximation range vs degree
+# calib_split: train
+target,dataset,rule,degree,top1,baseline_top1,delta_points,nonfinite_logit_frac,calib_split,n_images
+cifar10_resnet20,cifar10,minmax,7,34.91,92.6,-57.69,0.0,train,10000
+cifar10_resnet20,cifar10,minmax,15,90.29,92.6,-2.309999999999988,0.0061,train,10000
+cifar10_resnet20,cifar10,minmax,31,89.81,92.6,-2.789999999999992,0.0296,train,10000
+cifar10_resnet20,cifar10,minmax,63,87.71,92.6,-4.890000000000001,0.0532,train,10000
+cifar10_resnet20,cifar10,sigma2,7,10.0,92.6,-82.6,1.0,train,10000
+cifar10_resnet20,cifar10,sigma2,15,10.0,92.6,-82.6,1.0,train,10000
+cifar10_resnet20,cifar10,sigma2,31,10.0,92.6,-82.6,1.0,train,10000
+cifar10_resnet20,cifar10,sigma2,63,10.0,92.6,-82.6,1.0,train,10000
+cifar10_resnet20,cifar10,sigma3,7,10.1,92.6,-82.5,0.9974,train,10000
+cifar10_resnet20,cifar10,sigma3,15,10.0,92.6,-82.6,1.0,train,10000
+cifar10_resnet20,cifar10,sigma3,31,10.0,92.6,-82.6,1.0,train,10000
+cifar10_resnet20,cifar10,sigma3,63,10.0,92.6,-82.6,1.0,train,10000
+cifar10_resnet20,cifar10,sigma4,7,19.48,92.6,-73.11999999999999,0.7968,train,10000
+cifar10_resnet20,cifar10,sigma4,15,10.16,92.6,-82.44,0.9965,train,10000
+cifar10_resnet20,cifar10,sigma4,31,10.03,92.6,-82.57,0.9993,train,10000
+cifar10_resnet20,cifar10,sigma4,63,10.03,92.6,-82.57,0.9997,train,10000
+cifar10_resnet20,cifar10,sigma6,7,18.37,92.6,-74.22999999999999,0.0644,train,10000
+cifar10_resnet20,cifar10,sigma6,15,42.4,92.6,-50.199999999999996,0.5381,train,10000
+cifar10_resnet20,cifar10,sigma6,31,23.44,92.6,-69.16,0.8,train,10000
+cifar10_resnet20,cifar10,sigma6,63,20.41,92.6,-72.19,0.8567,train,10000
+cifar10_resnet20,cifar10,pct1,7,10.0,92.6,-82.6,1.0,train,10000
+cifar10_resnet20,cifar10,pct1,15,10.0,92.6,-82.6,1.0,train,10000
+cifar10_resnet20,cifar10,pct1,31,10.0,92.6,-82.6,1.0,train,10000
+cifar10_resnet20,cifar10,pct1,63,10.0,92.6,-82.6,1.0,train,10000
+cifar10_resnet20,cifar10,pct0.1,7,25.8,92.6,-66.8,0.7716,train,10000
+cifar10_resnet20,cifar10,pct0.1,15,10.23,92.6,-82.36999999999999,0.9964,train,10000
+cifar10_resnet20,cifar10,pct0.1,31,10.0,92.6,-82.6,0.9999,train,10000
+cifar10_resnet20,cifar10,pct0.1,63,10.0,92.6,-82.6,1.0,train,10000

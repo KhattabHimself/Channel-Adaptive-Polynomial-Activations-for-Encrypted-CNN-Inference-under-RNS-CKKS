@@ -1,0 +1,1 @@
+Five calibration blocks, 5% margin: cifar10_resnet20 degree 15: 90.15 +/- 0.67 (89.05 to 90.87); cifar10_resnet20 degree 31: 89.71 +/- 0.09 (89.62 to 89.81)
